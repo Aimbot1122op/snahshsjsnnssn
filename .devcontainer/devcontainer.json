@@ -1,0 +1,15 @@
+{
+    "name": "FFD0S BOT",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
+    "postStartCommand": "python3 /workspaces/snahshsjsnnssn/BOT.py",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.pythonPath": "/usr/local/bin/python"
+            },
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    }
+}
